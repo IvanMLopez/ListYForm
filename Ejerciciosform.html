@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Listas y Form</title>
+</head>
+<body>
+    <!--Ejercicio 1 -->
+    <h1>Curriculum Vitae de Bruce Wayne</h1>   
+    <h2>
+        Datos Personales
+    </h2>
+    <ul>
+      <li>Nombre Completo: <strong>Bruce Wayne</strong> </li>
+      <li>Fecha de Nacimiento: <strong>01/05/1939</strong></li>
+      <li>Lugar de Lugar de Nacimiento: <strong>Gotham City</strong></li>
+    </ul>
+    <h2>Formación Académica</h2>
+    <ul>
+        <li>1956-1961: <strong>Universidad del Espantapajaros</strong></li>
+        <li>1952-1956: <strong>Instituto de Dos Caras</strong></li>
+        <li>1944-1952: <strong>Escuela Primaria de Joker</strong></li>
+    </ul>
+    <h2>Experiencia Laboral</h2>
+    <ul>
+        <li>1975-1985: <strong>En el paro</strong> </li>
+        <li>1965-1975: <strong>Cazavillanos y demas chusma</strong></li>
+        <li>1962-1968: <strong>Aprendiz de superheroe</strong></li>
+    </ul>
+    <!--Ejercicio 2 -->
+    <h1>Internet</h1>
+    <h2>Contenido</h2>
+    <ol>
+        <li>Principales Protocolos</li>
+        <li>Formas de conectarse</li>
+    </ol>
+
+
+    <h2>1. Principales Protocolos</h2>
+    <ul>
+        <li>Transmision de Ficheros
+            <ul>
+                <li>FTP</li>
+            </ul>
+        </li>
+        <li>
+            Correo Electronico:
+            <ul>
+                <li>IMAP</li>
+                <li>POP</li>
+                <li>SMTP</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>
+        2. Formas de conectarse
+    </h2>
+    <dl>
+        <dt>Red Telefonica conmutada (RTC)</dt>
+             <dd>La linea Telefonica de toda la vida. Para acceder a internet es necesario un modem</dd>
+    
+        <dt>Red Digital de Servicios Integrados (RDSI)</dt>
+            <dd>Una linea telefonica especial. Para acceder a Internet es necesario un modem RDSI</dd>
+        <dt>Linea de Abonado Digital Asimetrica (ADSL)</dt>    
+            <dd>Se basa en la conversion de una linea RTC en una linea de alta velocidad. Para acceder a internet es necesario un modem ADSL</dd>
+        <dt>Fibra Optica</dt>
+            <dd>Una linea de fibra optica. Normalmente la fibra optica no llega hasta el usuario final, por lo que el termino mas apropiado es Fibra híbrida coaxial</dd>
+    </dl>
+    <!--Ejercicio 3 -->
+    <h1>
+        Formulario de registro
+    </h1>
+    <form action="">
+        <label >Nombre:</label>
+        <input type="text">
+        <p></p>
+        <label >Apellido</label>
+        <input type="text">  <p></p>
+        <label >Sexo</label>
+        <input type="radio"><label>Hombre</label>
+        <input type="radio"><label>Mujer</label>
+        <p></p>
+        <label >Correo:</label>
+        <input type="email">
+        <p></p>
+        <input type="checkbox"><label >Deseo recibir informacion sobre novedades y ofertas</label> <p></p>
+        <input type="checkbox"><label >Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
+        <button>Enviar</button>
+    </form>
+    <!--Ejercicio 4 -->
+    <form >
+        <label >Nombre:</label>
+        <input type="text">
+        <p></p>
+        <label >Apellido</label>
+        <input type="text">  <p></p>
+        <label >Sexo</label>
+        <input type="radio"><label>Hombre</label>
+        <input type="radio"><label>Mujer</label>
+        <p></p>
+        <label >Correo:</label>
+        <input type="email"><p></p>
+        <label >Poblacion</label>
+        <select >
+                <option ></option>
+                <option>CABA</option>
+                <option >Zona Norte</option>
+                <option >Zona Sur</option>
+                <option >Zona Oeste</option>
+        </select><p></p>
+        <label >Descripcion:</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea><p></p>
+        <input type="checkbox"><label >Deseo recibir informacion sobre novedades y ofertas</label> <p></p>
+        <input type="checkbox"><label >Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label><p></p>
+        <button>Enviar</button>
+    </form>
+
+</body>
+</html>
